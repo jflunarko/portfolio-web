@@ -81,7 +81,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 600px) {
     .about-containers {
       grid-template-columns: repeat(2, 1fr);
     }

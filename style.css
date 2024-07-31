@@ -327,33 +327,21 @@ section {
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
-  text-align: center;
 }
 
 .experience-details-container {
   display: flex;
+  justify-content: center;
   flex-direction: column;
-  align-items: center;
-}
-
-.about-containers {
-  display: grid;
-  gap: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  width: 100%;
-}
-
-.details-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .article-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
   gap: 2.5rem;
-  justify-items: center;
+  justify-content: space-around;
 }
 
 article {
@@ -362,11 +350,8 @@ article {
   align-items: center;
   text-align: center;
 }
-
 article .icon {
   cursor: default;
-  width: 3rem; /* Adjust size as needed */
-  height: auto;
 }
 
 /* PROJECTS SECTION */
